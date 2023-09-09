@@ -70,7 +70,7 @@ fun MyDiceApp() {
 
         Button(
             onClick = {
-
+                diceNumber = (1..6).random()
             },
             modifier = Modifier
                 .fillMaxWidth()
